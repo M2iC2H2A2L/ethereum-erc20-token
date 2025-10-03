@@ -1,0 +1,16 @@
+# Ethereum ERC20 Token
+
+Простий ERC20 токен на Solidity для Ethereum. Базовий приклад для DeFi розробки.
+
+## Фічі
+- Mint 1M токенів на deploy (decimals = 18).
+- Використовує OpenZeppelin для безпеки.
+
+## Setup
+1. Встанови Hardhat: `npm install --save-dev hardhat`.
+2. Компілюй: `npx hardhat compile`.
+3. Deploy: `npx hardhat run scripts/deploy.js --network localhost` (створи script/deploy.js з базовим deploy).
+
+Contributions welcome! #Ethereum #Solidity #DeFi
+
+Twitter: @Crypto777G
